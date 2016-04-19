@@ -39,9 +39,9 @@ img {
 body {
 	background: #fff;
 	color: #F7951C;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'arial', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 50%;
 }
 
 section { overflow: hidden; }
@@ -54,11 +54,10 @@ section { overflow: hidden; }
 h1, h2 { margin: 0; }
 
 h1 {
-	font-size: 80px;
-	font-weight: 800;
-	line-height: 80px;
-	letter-spacing: -0.08em;
-	color: #EA183F; 
+	font-size: 200px;
+	font-weight: 200;
+	line-height: 500px;
+	color:#EA183F;
 }
 
 h2 {
@@ -67,12 +66,14 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #F5851E;
+
+
+	
 }
 
 #countdown div span {
 	display:block;
-	font-size: 50px;
+	font-size: 20px;
 	line-height: 50px;
 	letter-spacing: initial;
 	font-weight: 100;
@@ -197,16 +198,19 @@ h2 {
 
 .contact .icons li:last-of-type { margin-right: 0px; }
 
+
+
 .contact .icons li a {
-	display: block;
-	width: 25px;
-	height: 25px;
-	opacity: .5;
-	-webkit-transition: opacity 0.3s;
-	-moz-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-	color: black;
-	font-size: 24px;
+	font-size: 29px;
+	opacity: 0.5;
+	transition: opacity 0.3s ease 0s;
+	width: 364px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #EA183F;
+	padding: 12px;
+	background-color: #EA183F;
+	color:#FFF;
 }
 
 
@@ -493,7 +497,7 @@ h2 {
 	/* TITLE & CONTACT */
 	.title { top: 15%;}
 	.contact { bottom: 8%; }
-	.contact .icons { margin-bottom: 12px; }
+	.contact .icons { margin-bottom: 100px; }
 	/* SIZES */
 	.sphere img{
 		-webkit-transform: scale(1);
