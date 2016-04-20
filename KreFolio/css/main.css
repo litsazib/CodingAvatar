@@ -49,6 +49,28 @@ Developed By: Zahidul Hossain (http://twitter.com/ch0yan)
 
     2.16 SECTION: Footer
 -----------------------------------------*/
+
+
+
+
+.thumbnail{
+	border:none;
+    transition: all 1s ease 0s;
+	 background-color:transparent;  
+     background: transparent;
+
+
+}
+.effect img:hover{
+	cursor:pointer;
+	    transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+	transition:1s;
+	-ms-transition:1s;
+	-webkit-transition:1s;
+}
 /* ========================================================================
   1.1 Component: GLOBAL
  ========================================================================== */
