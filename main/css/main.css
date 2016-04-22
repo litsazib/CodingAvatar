@@ -51,8 +51,20 @@ Developed By: Zahidul Hossain (http://twitter.com/ch0yan)
 -----------------------------------------*/
 
 
-
-
+/*CUSTOM CSS*/
+.p15{
+margin-bottom:28px;
+}
+.features{
+color:#d35400;
+font-weight:700;
+}
+.coures_ing {
+  border: 2px solid #c0c0c0;
+  padding-bottom: 11px;
+  padding-left: 10px;
+  padding-top: 58px;
+}
 .thumbnail{
 	border:none;
     transition: all 1s ease 0s;
@@ -743,7 +755,6 @@ header .logo-container {
   2.6 Component: Our Skills
  ========================================================================== */
 .skill-bar li .wrapper {
-  margin-bottom: 30px;
   border-radius: 3px;
   background: #dddddd;
 }
@@ -1038,7 +1049,7 @@ header .logo-container {
   border: 1px solid #dbd8d8;
 }
 .we-are-hiring .upload-cv .inner {
-  padding: 65px;
+  padding: 54px;
   border: 2px dashed #dbd8d8;
   color: #666666;
 }
