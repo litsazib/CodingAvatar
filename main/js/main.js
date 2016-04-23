@@ -205,7 +205,7 @@ $(document).ready(function () {
      Component: Map
    ========================================================================== */
   google.maps.event.addDomListener(window, 'load', init);
-//23.8312262,90.4247011,20.25z  
+//23.8312262,90.4247011
   function init() {
     var myLatlng = new google.maps.LatLng(23.8312262, 90.4247011);
     var mapOptions = {
